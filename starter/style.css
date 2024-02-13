@@ -117,3 +117,32 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 690px) {
+  body{
+    width: 100vw;
+  }
+  header{
+    height: 40vh;
+  }
+  main{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .left{
+    margin-top: 12rem;
+    width: 100vw;
+  }
+  .right{
+    margin-top: 3rem;
+    width: 40vw;
+  }
+  .between{
+    top: 4rem;
+    right: 4rem;
+  }
+  .message{
+    margin-bottom: 3rem;
+  }
+}
