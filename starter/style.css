@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 
 * {
   margin: 0;
@@ -119,30 +119,30 @@ h1 {
 }
 
 @media screen and (max-width: 690px) {
-  body{
+  body {
     width: 100vw;
   }
-  header{
+  header {
     height: 40vh;
   }
-  main{
+  main {
     height: 60vh;
     display: flex;
     flex-direction: column;
   }
-  .left{
+  .left {
     margin-top: 12rem;
     width: 100vw;
   }
-  .right{
+  .right {
     margin-top: 3rem;
     width: 40vw;
   }
-  .between{
+  .between {
     top: 4rem;
     right: 4rem;
   }
-  .message{
+  .message {
     margin-bottom: 3rem;
   }
 }
